@@ -1,0 +1,57 @@
+Instance created. Preparing to start...
+Starting download for registry01.prod.koyeb.com/k-5e6540b7-bfd5-4246-9382-abfa6360bab5/7599e674-b220-4019-a1eb-daa8beba5772:2e8bd4c0-3724-42ab-9995-4ae51a6cb982
+Download progress: 100% |[32m++++++++[0m| (46.4 MiB/s)
+Download complete for registry01.prod.koyeb.com/k-5e6540b7-bfd5-4246-9382-abfa6360bab5/7599e674-b220-4019-a1eb-daa8beba5772:2e8bd4c0-3724-42ab-9995-4ae51a6cb982
+Instance is starting... Waiting for health checks to pass.
+/VJ-FILTER-BOT/bot.py:34: DeprecationWarning: There is no current event loop
+  loop = asyncio.get_event_loop()
+
+
+Initalizing Your Bot
+No additional clients found, using default client
+Tech VJ Imported => channel
+Tech VJ Imported => __init__
+Tech VJ Imported => index
+Tech VJ Imported => files_delete
+Tech VJ Imported => banned
+Tech VJ Imported => commands
+Tech VJ Imported => pm_filter
+Tech VJ Imported => genlink
+Tech VJ Imported => connection
+Tech VJ Imported => route
+Tech VJ Imported => clone
+Tech VJ Imported => misc
+Tech VJ Imported => filters
+Tech VJ Imported => broadcast
+Tech VJ Imported => inline
+Tech VJ Imported => p_ttishow
+Tech VJ Imported => gfilters
+01:19:48 PM - 63 - root - bot - INFO - 
+████████╗███████╗███████╗██╗  ██╗    ╔██        ██╗       ██╗
+╚═ ██╔══╝██╔════╝██╔════╝██║  ██║     ║██      ██║        ██║
+   ██║    █████╗  ██║      ███████║      ║██    ██║         ██║
+   ██║    ██╔══╝  ██║      ██╔══██║       ║██  ██║  ╔██     ██║
+   ██║    ███████╗███████╗██║  ██║        ║████║   ║████████║
+   ╚═╝    ╚══════╝╚══════╝╚═╝  ╚═╝        ╚════╝   ╚════════╝
+Instance is healthy. All health checks are passing.
+Make Your Bot Admin In Force Subscribe Channel With Full Rights
+01:20:05 PM - 376 - pyrogram.dispatcher - dispatcher - ERROR - 'Cursor' object has no attribute 'to_list'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/handlers/callback_query_handler.py", line 207, in resolve_future_or_callback
+    await self.original_callback(client, query, *args)
+  File "/VJ-FILTER-BOT/plugins/pm_filter.py", line 1448, in cb_handler
+    files_ = await get_file_details(file_id)
+  File "/VJ-FILTER-BOT/database/ia_filterdb.py", line 150, in get_file_details
+    filedetails = await cursor.to_list(length=1)
+AttributeError: 'Cursor' object has no attribute 'to_list'
+01:20:07 PM - 376 - pyrogram.dispatcher - dispatcher - ERROR - name 'files_' is not defined
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/VJ-FILTER-BOT/plugins/commands.py", line 545, in start
+    files = files_
+NameError: name 'files_' is not defined
