@@ -542,9 +542,6 @@ async def start(client, message):
             await asyncio.sleep(1200)
             await k.edit("<b>✅ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ ɪs sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ</b>")
             return
-    files_ = await get_file_details(file_id)
-    if not files_:
-        return await message.reply('<b><i>No such file exist.</i></b>')
     files = files_
     title = files["file_name"]
     size=get_size(files["file_size"])

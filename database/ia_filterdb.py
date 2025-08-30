@@ -146,17 +146,19 @@ async def get_bad_files(query, file_type=None, use_filter=False):
 
 async def get_file_details(query):
     filter = {'file_id': query}
-    filedetails = col.find_one(filter)
+    cursor = col.find(filter)
+    filedetails = await cursor.to_list(length=1)
     if not filedetails:
-        filedetails = sec_col.find_one(filter)
-    return filedetails
+        cursor = sec_col.find(filter)
+        filedetails = await cursor.to_list(length=1)
+    return filedetails[0] if filedetails else None
 
 async def is_file_exist(file_id):
     """Check if file exists in database"""
     filter = {'file_id': file_id}
-    exists = col.count_documents(filter, limit=1)
+    exists = await col.count_documents(filter, limit=1)
     if not exists:
-        exists = sec_col.count_documents(filter, limit=1)
+        exists = await sec_col.count_documents(filter, limit=1)
     return bool(exists)
 
 def encode_file_id(s: bytes) -> str:
