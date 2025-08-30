@@ -145,7 +145,21 @@ async def get_bad_files(query, file_type=None, use_filter=False):
     return files, total_results
 
 async def get_file_details(query):
-    return col.find_one({'file_id': query}) or sec_col.find_one({'file_id': query})
+    filter = {'file_id': query}
+    cursor = col.find(filter)
+    filedetails = await cursor.to_list(length=1)
+    if not filedetails:
+        cursor = sec_col.find(filter)
+        filedetails = await cursor.to_list(length=1)
+    return filedetails[0] if filedetails else None
+
+async def is_file_exist(file_id):
+    """Check if file exists in database"""
+    filter = {'file_id': file_id}
+    exists = await col.count_documents(filter, limit=1)
+    if not exists:
+        exists = await sec_col.count_documents(filter, limit=1)
+    return bool(exists)
 
 def encode_file_id(s: bytes) -> str:
     r = b""
@@ -173,4 +187,3 @@ def unpack_new_file_id(new_file_id):
         )
     )
     return file_id
-    
