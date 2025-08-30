@@ -1,0 +1,243 @@
+  File "/VJ-FILTER-BOT/plugins/pm_filter.py", line 2750, in advantage_spell_chok
+    k = await reply_msg.edit_text(text=script.I_CUDNT.format(mv_rqst), reply_markup=InlineKeyboardMarkup(button))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 4218, in edit_text
+    return await self._client.edit_message_text(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/messages/edit_message_text.py", line 109, in edit_message_text
+    r = await self.invoke(rpc)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message id is invalid
+12:48:31 PM - 376 - pyrogram.dispatcher - dispatcher - ERROR - Telegram says: [400 MESSAGE_ID_INVALID] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message id is invalid
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/VJ-FILTER-BOT/plugins/pm_filter.py", line 84, in pm_text
+    await auto_filter(bot, content, message, reply_msg, ai_search)
+  File "/VJ-FILTER-BOT/plugins/pm_filter.py", line 2530, in auto_filter
+    return await advantage_spell_chok(client, name, msg, reply_msg, ai_search)
+  File "/VJ-FILTER-BOT/plugins/pm_filter.py", line 2750, in advantage_spell_chok
+    k = await reply_msg.edit_text(text=script.I_CUDNT.format(mv_rqst), reply_markup=InlineKeyboardMarkup(button))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 4218, in edit_text
+    return await self._client.edit_message_text(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/messages/edit_message_text.py", line 109, in edit_message_text
+    r = await self.invoke(rpc)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message id is invalid
+12:50:33 PM - 214 - aiohttp.access - web_log - INFO - 10.250.0.22 [30/Aug/2025:12:50:33 +0000] "HEAD / HTTP/1.1" 200 160 "https://victorious-flyingfish-projnanesh-d0edc6d2.koyeb.app" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+12:55:35 PM - 214 - aiohttp.access - web_log - INFO - 10.250.0.21 [30/Aug/2025:12:55:35 +0000] "HEAD / HTTP/1.1" 200 160 "https://victorious-flyingfish-projnanesh-d0edc6d2.koyeb.app" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+12:56:42 PM - 376 - pyrogram.dispatcher - dispatcher - ERROR - Telegram says: [400 MESSAGE_ID_INVALID] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message id is invalid
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/VJ-FILTER-BOT/plugins/pm_filter.py", line 84, in pm_text
+    await auto_filter(bot, content, message, reply_msg, ai_search)
+  File "/VJ-FILTER-BOT/plugins/pm_filter.py", line 2530, in auto_filter
+    return await advantage_spell_chok(client, name, msg, reply_msg, ai_search)
+  File "/VJ-FILTER-BOT/plugins/pm_filter.py", line 2750, in advantage_spell_chok
+    k = await reply_msg.edit_text(text=script.I_CUDNT.format(mv_rqst), reply_markup=InlineKeyboardMarkup(button))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 4218, in edit_text
+    return await self._client.edit_message_text(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/messages/edit_message_text.py", line 109, in edit_message_text
+    r = await self.invoke(rpc)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message id is invalid
+01:00:40 PM - 214 - aiohttp.access - web_log - INFO - 10.250.0.22 [30/Aug/2025:13:00:40 +0000] "HEAD / HTTP/1.1" 200 160 "https://victorious-flyingfish-projnanesh-d0edc6d2.koyeb.app" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+01:03:36 PM - 376 - pyrogram.dispatcher - dispatcher - ERROR - Invalid base64-encoded string: number of data characters (25) cannot be 1 more than a multiple of 4
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/VJ-FILTER-BOT/plugins/commands.py", line 531, in start
+    pre, file_id = ((base64.urlsafe_b64decode(data + "=" * (-len(data) % 4))).decode("ascii")).split("_", 1)
+  File "/usr/local/lib/python3.10/base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "/usr/local/lib/python3.10/base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Invalid base64-encoded string: number of data characters (25) cannot be 1 more than a multiple of 4
+01:03:40 PM - 376 - pyrogram.dispatcher - dispatcher - ERROR - Telegram says: [400 MEDIA_EMPTY] (caused by "messages.SendMedia") Pyrogram 2.3.45 thinks: The media you tried to send is invalid
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/VJ-FILTER-BOT/plugins/commands.py", line 612, in start
+    msg = await client.send_cached_media(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/messages/send_cached_media.py", line 154, in send_cached_media
+    r = await self.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MediaEmpty: Telegram says: [400 MEDIA_EMPTY] (caused by "messages.SendMedia") Pyrogram 2.3.45 thinks: The media you tried to send is invalid
+01:04:07 PM - 376 - pyrogram.dispatcher - dispatcher - ERROR - Telegram says: [400 MEDIA_EMPTY] (caused by "messages.SendMedia") Pyrogram 2.3.45 thinks: The media you tried to send is invalid
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/VJ-FILTER-BOT/plugins/commands.py", line 612, in start
+    msg = await client.send_cached_media(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/messages/send_cached_media.py", line 154, in send_cached_media
+    r = await self.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MediaEmpty: Telegram says: [400 MEDIA_EMPTY] (caused by "messages.SendMedia") Pyrogram 2.3.45 thinks: The media you tried to send is invalid
+Peacemaker 2025 S02 EP01 720p HQ HDRip Tam Hin Eng AAC 500MB mkv is already saved.
+Peacemaker 2025 S02 EP02 720p HQ HDRip Tam Hin Eng AAC 500MB mkv is already saved.
+01:05:02 PM - 376 - pyrogram.dispatcher - dispatcher - ERROR - Telegram says: [400 MESSAGE_ID_INVALID] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message id is invalid
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/VJ-FILTER-BOT/plugins/pm_filter.py", line 84, in pm_text
+    await auto_filter(bot, content, message, reply_msg, ai_search)
+  File "/VJ-FILTER-BOT/plugins/pm_filter.py", line 2530, in auto_filter
+    return await advantage_spell_chok(client, name, msg, reply_msg, ai_search)
+  File "/VJ-FILTER-BOT/plugins/pm_filter.py", line 2750, in advantage_spell_chok
+    k = await reply_msg.edit_text(text=script.I_CUDNT.format(mv_rqst), reply_markup=InlineKeyboardMarkup(button))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 4218, in edit_text
+    return await self._client.edit_message_text(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/messages/edit_message_text.py", line 109, in edit_message_text
+    r = await self.invoke(rpc)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message id is invalid
+01:05:14 PM - 376 - pyrogram.dispatcher - dispatcher - ERROR - Telegram says: [400 MEDIA_EMPTY] (caused by "messages.SendMedia") Pyrogram 2.3.45 thinks: The media you tried to send is invalid
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/VJ-FILTER-BOT/plugins/commands.py", line 612, in start
+    msg = await client.send_cached_media(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/messages/send_cached_media.py", line 154, in send_cached_media
+    r = await self.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MediaEmpty: Telegram says: [400 MEDIA_EMPTY] (caused by "messages.SendMedia") Pyrogram 2.3.45 thinks: The media you tried to send is invalid
+01:05:18 PM - 376 - pyrogram.dispatcher - dispatcher - ERROR - Telegram says: [400 MESSAGE_ID_INVALID] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message id is invalid
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/VJ-FILTER-BOT/plugins/pm_filter.py", line 84, in pm_text
+    await auto_filter(bot, content, message, reply_msg, ai_search)
+  File "/VJ-FILTER-BOT/plugins/pm_filter.py", line 2530, in auto_filter
+    return await advantage_spell_chok(client, name, msg, reply_msg, ai_search)
+  File "/VJ-FILTER-BOT/plugins/pm_filter.py", line 2750, in advantage_spell_chok
+    k = await reply_msg.edit_text(text=script.I_CUDNT.format(mv_rqst), reply_markup=InlineKeyboardMarkup(button))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 4218, in edit_text
+    return await self._client.edit_message_text(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/messages/edit_message_text.py", line 109, in edit_message_text
+    r = await self.invoke(rpc)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageIdInvalid: Telegram says: [400 MESSAGE_ID_INVALID] (caused by "messages.EditMessage") Pyrogram 2.3.45 thinks: The message id is invalid
+01:05:42 PM - 214 - aiohttp.access - web_log - INFO - 10.250.0.20 [30/Aug/2025:13:05:42 +0000] "HEAD / HTTP/1.1" 200 160 "https://victorious-flyingfish-projnanesh-d0edc6d2.koyeb.app" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
+01:05:52 PM - 376 - pyrogram.dispatcher - dispatcher - ERROR - Telegram says: [400 MEDIA_EMPTY] (caused by "messages.SendMedia") Pyrogram 2.3.45 thinks: The media you tried to send is invalid
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/VJ-FILTER-BOT/plugins/commands.py", line 612, in start
+    msg = await client.send_cached_media(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/messages/send_cached_media.py", line 154, in send_cached_media
+    r = await self.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MediaEmpty: Telegram says: [400 MEDIA_EMPTY] (caused by "messages.SendMedia") Pyrogram 2.3.45 thinks: The media you tried to send is invalid
+Thalaivan Thalaivii 2025 Kannada #360p #HEV mkv is successfully saved.
+Thalaivan Thalaivii 2025 Kannada #480p #HEV mkv is successfully saved.
+Thalaivan Thalaivii 2025 Kannada #720p #HEV mkv is successfully saved.
+Thalaivan Thalaivii 2025 Kannada #720p AMZN mkv is successfully saved.
+Thalaivan Thalaivii 2025 Kannada #1080p #HE mkv is successfully saved.
+Thalaivan Thalaivii 2025 Kannada #1080p AMZ mkv is successfully saved.
+Thalaivan Thalaivii 2025 Kannada #1080p #DS mkv is successfully saved.
+Kingdom 2025 HQ HDRip x264 Kann mkv is successfully saved.
+Kingdom 2025 HQ HDRip x264 Kann mkv is already saved.
+Kingdom 2025 HQ HDRip 720p x264 mkv is successfully saved.
+Kingdom 2025 HQ HDRip 1080p x26 mkv is successfully saved.
+~ Kingdom 2025 #DS4K 720p #10bit NF WEB mkv is successfully saved.
+~ Kingdom 2025 #DS4K 1080p #10bit NF WE mkv is successfully saved.
+01:08:33 PM - 376 - pyrogram.dispatcher - dispatcher - ERROR - Telegram says: [400 MEDIA_EMPTY] (caused by "messages.SendMedia") Pyrogram 2.3.45 thinks: The media you tried to send is invalid
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 363, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/handlers/message_handler.py", line 154, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/VJ-FILTER-BOT/plugins/commands.py", line 612, in start
+    msg = await client.send_cached_media(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/messages/send_cached_media.py", line 154, in send_cached_media
+    r = await self.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 80, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 420, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/session/session.py", line 377, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 93, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MediaEmpty: Telegram says: [400 MEDIA_EMPTY] (caused by "messages.SendMedia") Pyrogram 2.3.45 thinks: The media you tried to send is invalid
+01:10:46 PM - 214 - aiohttp.access - web_log - INFO - 10.250.0.22 [30/Aug/2025:13:10:46 +0000] "HEAD / HTTP/1.1" 200 160 "https://victorious-flyingfish-projnanesh-d0edc6d2.koyeb.app" "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)"
